@@ -12,7 +12,13 @@ const account = new AccountClass({
   env: 'local'
 })
 
-account.createAccount(form)
+
+// let form = {
+//   "agencyId": 100,
+// 	"accountEmail": "test@test.com",
+// 	"accountOffererName": "jgheoihoi"
+// }
+// account.createAccount(form)
 
 module.exports = {
   account
